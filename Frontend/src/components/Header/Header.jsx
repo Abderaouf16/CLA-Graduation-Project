@@ -57,13 +57,13 @@ export default function Header() {
         <nav className="nav flex items-center justify-around py-10 bg-white w-full">
           <a
             className="text-black title   pr-2  font-bold  pl-5  "
-            href="/home"
+            href="/"
           >
             Archi World
           </a>
           <ul className={open ? "nav_items active " : "nav_items"}>
             <li className="text-black ">
-              <a href="/home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="text-black">
               <a href="/projects">Projects</a>

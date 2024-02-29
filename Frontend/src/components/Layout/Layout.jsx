@@ -12,7 +12,7 @@ export default function () {
     <>
       <section>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<Login />} />
